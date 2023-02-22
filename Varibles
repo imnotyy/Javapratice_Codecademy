@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+public class MadLibs {
+  /*
+  A silly story while praticing using variables in Java.
+  */
+  	public static void main(String[] args){
+      
+      String name1 = "Addie";
+      String name2 = "Lilia";
+      String adjective1 = "great";
+      String adjective2 = "lovely";
+      String noun1 = "cat";
+      String noun2 = "human";
+      String verb1 = "meow";
+      String noun3 = "shell";
+      String noun4 = "kale";
+      String noun5 = "orange juice";
+      String noun6 = "bird";
+      String adjective3 = "green";
+      String place1 = "park";
+      int number = 4;
+
+
+      
+      
+      //The template for the story
+      String story = "This morning "+name1+" woke up feeling "+adjective1+". 'It is going to be a "+adjective2+" day!' Outside, a bunch of "+noun1+"s were protesting to keep "+noun2+" in stores. They began to "+verb1+" to the rhythm of the "+noun3+", which made all the "+noun4+"s very "+adjective3+". Concerned, "+name1+" texted "+name2+", who flew "+name1+" to "+place1+" and dropped "+name1+" in a puddle of frozen "+noun5+". "+name1+" woke up in the year "+number+", in a world where "+noun6+"s ruled the world.";
+
+System.out.println(story);
+    }       
+}
+
+
+/*
+Output:
+This morning Addie woke up feeling great. 'It is going to be a lovely day!' Outside, a bunch of cats were protesting to keep human in stores. They began to meow to the rhythm of the shell, which made all the kales very green. Concerned, Addie texted Lilia, who flew Addie to park and dropped Addie in a puddle of frozen orange juice. Addie woke up in the year 4, in a world where birds ruled the world.
+
+*/
