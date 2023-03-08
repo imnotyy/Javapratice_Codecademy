@@ -173,3 +173,63 @@ public class SavingsAccount {
     */
   }       
 }
+
+
+Calculator project
+/*
+This is an calculator program that can take 2 input integer number and output result from addition subtraction multiplication and division.
+
+author: imnotyy
+date: Mar.07.2023
+
+
+*/
+public class Calculator {
+
+  //constructor
+  public Calculator(){
+
+  }
+
+  // add method
+  public int add (int a, int b){
+    int sum = a + b;
+    return sum;
+
+  }
+
+  // subtract method
+  public int subtract(int a, int b){
+      int difference = a - b;
+      return difference;
+  }
+
+  // multiply method
+  public int multiply(int a, int b){
+
+      return a*b;
+  }
+
+  // divide method
+  public int divide(int a, int b){
+    return a/b;
+  }
+
+    //modulo method
+    public int modulo (int a, int b){
+      return a % b;
+    }
+  
+   public static void main(String[]args ){
+    Calculator myCalculator = new Calculator();
+    myCalculator.add(5, 7);
+    myCalculator.subtract(45, 11);
+    System.out.println(myCalculator.add(5, 7)); 
+    System.out.println(myCalculator.subtract(45, 11));
+    System.out.println(myCalculator.multiply(45, 11));
+    System.out.println(myCalculator.divide(45,11));
+    
+
+
+    }
+}
